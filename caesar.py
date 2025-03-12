@@ -29,6 +29,7 @@ def caesar_breaker_brute_force(ciphertext: str, dictionary: tp.Set[str]) -> int:
         plaintext = decrypt_caesar(ciphertext, best_shift)
     return best_shift
 
+'''
 print(encrypt_caesar("PYTHON"))  
 print(encrypt_caesar("python"))  
 print(encrypt_caesar("Python3.6")) 
@@ -39,4 +40,5 @@ print(decrypt_caesar("sbwkrq"))
 print(decrypt_caesar("Sbwkrq3.6"))
 print(decrypt_caesar(""))
 
-print(caesar_breaker_brute_force("SBWKRQ", {"PYTHON", "python", "Python3.6", "sbwkrq", "Sbwkrq3.6"}))
+print(caesar_breaker_brute_force("SBWKRQ", {"PYTHON", "python", "Python3.6", "sbwkrq", "Sbwkrq3.6"}))'
+'''
